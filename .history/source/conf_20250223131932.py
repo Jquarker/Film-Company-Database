@@ -27,6 +27,10 @@ language = 'zh_CN'
 html_theme = 'alabaster'
 html_static_path = ['_static']
 
+html_theme_options = {
+    'navigation_depth': 5,
+}
+
 import sphinx_rtd_theme
 
 extensions = [
@@ -50,3 +54,4 @@ html_css_files = [
 myst_enable_extensions = ["colon_fence"]
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
