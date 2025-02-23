@@ -1,0 +1,16 @@
+/* 顶部条和侧边栏的背景色 */
+.wy-nav-top,
+.wy-side-nav-search,
+.wy-side-nav-search .form-control {
+  background-color: rgb(161, 113, 18) !important;
+}
+
+/* 将 toctree 目录标题颜色修改为红色 */
+.toctree-wrapper.compound .caption .caption-text {
+  color: #ff0000 !important;
+}
+
+/* 改链接颜色 */
+a.reference.internal {
+    color: red;
+}

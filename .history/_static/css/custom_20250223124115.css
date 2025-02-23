@@ -1,0 +1,5 @@
+/* 覆盖目录标题的颜色 */
+.toctree-wrapper .caption,
+.toctree-wrapper .caption a {
+  color: red !important;
+}

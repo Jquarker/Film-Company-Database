@@ -1,0 +1,18 @@
+/* filepath: /home/jquark/Documents/film_database/_static/css/custom.css */
+/* 修改顶部条和侧边栏的背景色 */
+.wy-nav-top,
+.wy-side-nav-search,
+.wy-side-nav-search .form-control {
+  background-color: rgb(161, 113, 18) !important;
+}
+
+/* 如果你还想修改链接颜色 */
+a.reference.internal {
+  color: red;
+}
+
+/*目录标题的颜色 */
+.toctree-wrapper .caption,
+.toctree-wrapper .caption a {
+    color: red !important;
+}

@@ -1,0 +1,7 @@
+/* filepath: /home/jquark/Documents/film_database/_static/css/custom.css */
+/* 修改顶部条和侧边栏的背景色 */
+.wy-nav-top,
+.wy-side-nav-search,
+.wy-side-nav-search .form-control {
+  background-color: rgba(255, 123, 0, 0.688) !important;
+}
